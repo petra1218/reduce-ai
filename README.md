@@ -19,19 +19,23 @@ AI 辅助写作的通病在结构，不在个别词。典型症状：
 
 ## 安装
 
-一条命令（支持 Claude Code、Cursor、ZCode 等 50+ 工具，自动检测）：
+用 skills CLI（支持 Claude Code、Cursor、ZCode 等 50+ 工具，自动检测）：
 
 ```bash
-# 从 GitHub
 npx skills add https://github.com/petra1218/reduce-ai
-
-# 或从 GitCode（国内访问更快）
-npx skills add https://gitcode.com/petra1218/reduce-ai
 ```
 
 只要其中一个语言版本时加 `--skill reduce-ai-zh` 或 `--skill reduce-ai-en`。
 
-手动安装：把 `skills/` 下对应目录复制到 `~/.agents/skills/`（全局）或项目的 `.agents/skills/`。
+国内访问 GitHub 慢时，从 GitCode 镜像克隆再手动安装。注意：skills CLI（截至 1.7.4）不识别 GitCode 地址，`npx skills add` 对 GitCode 链接会报错，只能走下面这条路：
+
+```bash
+git clone https://gitcode.com/petra1218/reduce-ai
+cp -r reduce-ai/skills/reduce-ai-zh ~/.agents/skills/
+cp -r reduce-ai/skills/reduce-ai-en ~/.agents/skills/
+```
+
+手动安装的落点以你的工具实际读取的目录为准。常见位置：`~/.agents/skills/`（多数工具的通用位置）、`~/.claude/skills/`、`~/.workbuddy/skills/`；项目级用仓库下的 `.agents/skills/`。skills CLI 的自动目录清单不含全部工具（例如 WorkBuddy），不在清单里的工具直接复制目录即可——skill 就是一个目录加 SKILL.md，放对位置就能用。
 
 ## 使用
 
