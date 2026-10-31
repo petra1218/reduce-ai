@@ -15,6 +15,7 @@ Confirm two things and read the matching references:
 
 1. **Genre.** For a thesis or dissertation read `references/genres/thesis.md`. For a README, release notes, or usage docs read `references/genres/readme-docs.md`. Other genres run on the core rules below.
 2. **Discipline.** If known, read the matching file under `references/disciplines/` (e.g. `engineering-management.md`). If none exists, rely on the core rules and common sense.
+3. **Fact gaps.** Before drafting, scan the source material: list the factual assertions the text will make that the material doesn't cover (standard identifiers, statistics, dates, literature claims) and handle them per `references/search-verify.md` — avoid what can be avoided, batch-verify the rest, fall back to placeholders only as a last resort. Read that file before any writing task that relies on facts beyond the material.
 
 The core principles below always apply; no profile overrides them.
 
@@ -22,7 +23,7 @@ The core principles below always apply; no profile overrides them.
 
 Three rules with no give. Style yields to fact.
 
-**1. Facts are immutable.** Numbers, data, units, experimental settings, dates, names — use them exactly as the source material gives them, or leave a placeholder like `[TODO: N]` for the author to fill. Never invent a plausible number. One fabricated statistic does more damage than ten empty sentences: readers skip the empty ones and cite the fake one.
+**1. Facts are immutable.** Numbers, data, units, experimental settings, dates, names — use them exactly as the source material gives them, and never invent: run the verification workflow first (calibration step 3 above), and only what it can't confirm becomes a placeholder like `[TODO: N]` for the author to fill. One fabricated statistic does more damage than ten empty sentences: readers skip the empty ones and cite the fake one.
 
 **2. Citations stay in place.** [1], (Smith, 2023), `FIDIC 1999` — keep markers where they are. When paraphrasing, keep the attribution the source provides; if there is none, write "some studies suggest" rather than inventing "Research has shown that...".
 
