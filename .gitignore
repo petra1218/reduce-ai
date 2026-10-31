@@ -1,0 +1,15 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Node (skills CLI artifacts)
+node_modules/
+
+# Local test scratch
+tmp/
+*.local.md
