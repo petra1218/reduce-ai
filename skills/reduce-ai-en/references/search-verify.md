@@ -55,6 +55,14 @@ For each assertion beyond the source material, in this order:
 - Never configure credentials for any tool on the user's behalf; never echo credential contents.
 - Verification does not replace scholarly responsibility: the author still re-checks verified facts before relying on them.
 
+## In-text citation form
+
+Verified sources enter the body text at a required level of specificity, by source type:
+
+- **Policies and standards**: cite the identifier. "State Council Office document No. 29 (2026)", "ISO 21500" — where a document number exists, it is the most precise anchor.
+- **Web articles and media reports**: title + outlet + year/month, all three. In text: "a October 2026 Qiushi article, 'XX'". An outlet name with a vague date ("a piece on a research site") carrying a direct quotation ("as the article puts bluntly") is filler citation — find the title and add it, or demote the direct quotation to ordinary analysis (drop the quoting posture, present the point as this text's own reasoning, or cut it).
+- **Academic literature**: goes to the candidate list in the verification record, never directly into in-text citations.
+
 ## Delivery: the verification record
 
 Zero inline annotation in the body — no verification traces, links, or in-line sourcing. Verification output lives in a "Verification record" section at the end:

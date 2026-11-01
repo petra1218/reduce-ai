@@ -60,6 +60,33 @@ delve, pivotal, landscape, testament, crucial, foster, leverage, robust, compreh
 | it can be seen that / it is observed that | Delete; state the observation |
 | not only ... but also ... | Usually "and" |
 
+## Negative parallelism (the "not X, but Y" template)
+
+| Form | Handling |
+|---|---|
+| "not X, but Y" / "The key is not X but Y" / "What matters is not X, but Y" | Handle by meaning, three ways: the negated term adds nothing → drop it, state Y alone; it names a misconception worth marking → state Y first ("Y, not X" — plain appositive contrast); X is the default assumption the passage overturns → keep refute-then-state. Cap the literal form at two or three per document |
+| "not just X — it's Y" / "isn't X; it's Y" | Same treatment; these variants count toward the same quota |
+
+Test per instance: does the sentence draw a real distinction below the surface? A real one keeps its function in a new form; a fake one ("not just a tool, but a paradigm") is the template impersonating a thought — delete.
+
+## Signposted advances (announcing the move instead of making it)
+
+| Form | Handling |
+|---|---|
+| "With these two points established, the picture becomes clear" / "Bringing these together, ..." / "It is against this backdrop that ..." | Delete the announcement; the next sentence makes the move directly |
+| "Needless to say" / "It goes without saying" | If it needn't be said, don't |
+
+Root cause: over-explicitation — spelling out relations the context already implies. Connectives that carry logic are fine; announcing that you are about to connect things is not.
+
+## Abstract subjects (verbs demoted to nouns)
+
+| Form | Handling |
+|---|---|
+| "The implementation of the policy drove the improvement of efficiency" | Restore the actor: "After the policy took effect, efficiency improved" |
+| "The solution of the problem depends on the allocation of resources" | "Solving this depends on allocating resources" — or better, name who allocates what |
+
+Readers parse agency backwards in these sentences; give the action back to the verb and the actor back to the subject.
+
 ## What to keep (do not over-correct)
 
 - Logical connectives: Although, Whereas, Thus, Hence, Therefore, In contrast, Conversely, Based on these results, As expected — dense, natural use of these is what good human academic prose looks like. Stripping them produces choppy text, which is a worse defect than the one being treated.
